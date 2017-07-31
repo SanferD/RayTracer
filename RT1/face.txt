@@ -1,0 +1,33 @@
+eye -0 0 6
+imsize 200 160
+bkgcolor 0 0 0
+updir 0 1 0
+viewdir 0 0  -1
+fovv 60
+
+mtlcolor .545 .271 .075
+sphere 0.0 0.0 0.0 3
+
+mtlcolor .255 0.412 .882
+ellipsoid -0.6 0.4 3.0 .5 .2 1.0
+
+mtlcolor .255 0.412 .882
+ellipsoid 0.6 0.4 3.0 .5 .2 1.0
+
+mtlcolor 0 0 0
+sphere -0.42 0.30 4.0 .08
+
+mtlcolor 0 0 0
+sphere 0.42 0.30 4.0 .08
+
+mtlcolor .737 .561 .561
+ellipsoid 0 -0.5 3 1.0 .3 1.0
+
+mtlcolor .8 0 0
+ellipsoid 0 0 3 .2 .3 1.0
+
+mtlcolor .855 .647 .125
+ellipsoid -1.7 1.0 3 .2 .8 .8
+
+mtlcolor .855 .647 .125
+ellipsoid 1.7 1.0 3 .2 .8 .8

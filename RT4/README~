@@ -1,0 +1,24 @@
+To compile:
+	make
+
+To run:
+	./main <input-file>
+
+Comments:
+	Builds on previous ray-tracer.	
+	Depth of field is also implemented.
+	So artifacts in the output image are probably because of improper offsets.
+	Can change the depth_of_field bundle size at line 372 of main.cpp.
+	DEFAULT_R_D		The recursive depth for reflections
+	DEFAULT_T_D 	The recursive depth for refractions
+	These are found at the top of main.cpp.
+
+Scenes:
+	All scene files are located in the 'scenes' folder.
+	My code requires that the texture files and the input-scene files are in the same folder.
+	However it does allow the executable to be in a different folder from the scenes.
+	I have 6 scene files corresponding to the requirements in the grading sheet.
+	The interesting image can be generated from 'solar_eclipse.txt'.
+
+	./main scenes/myscene.txt
+		I'm using a resolution of 1024x1024, bundle size of 25 for depth-of-field, and recursive depths of 5 for reflections and refractions. Takes a pretty long time to run. To shorten run-time, decrease resolution to say, 256x256. This can be done by setting the resolution on line 5 in file scenes/myscene.txt

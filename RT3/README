@@ -1,0 +1,15 @@
+To compile:
+	make
+To run:
+	./main <input-file>
+Comments:
+	Builds on previous ray tracer.
+	Implements texture mapping and polygons.
+Scenes:
+	All scene files are located in the 'scenes' folder.
+	My code requires that the texture files and the input-scene files are in the same folder.
+	However it does allow the executable to be in a different folder from the scenes.
+	I have 6 scene files corresponding to the requirements in the grading sheet.
+	The interesting image can be generated from 'solar_eclipse.txt'.
+Example:
+	./main scenes/solor_eclipse.txt

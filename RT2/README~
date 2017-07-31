@@ -1,0 +1,13 @@
+To compile:
+	make
+To run:
+	./main <input-file>
+Comments:
+	Implemented soft shadows and spot lights.
+	Might have large run-time for large bundle-size in computing soft shadows.
+	Can change bundle size at line 102 in main.cpp.
+	Currently at 60.
+	Strobe angles in input file in degrees.
+Example:
+	./main face.txt
+	This will create an output image called face.ppm.
